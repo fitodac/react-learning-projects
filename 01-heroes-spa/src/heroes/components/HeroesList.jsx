@@ -12,8 +12,8 @@ export const HeroesList = ({publisher}) => {
 
 	return (
 	<>
-		<div className="">
-			<div className="grid gap-10 md:grid-cols-3 md:gap-x-5 lg:grid-cols-4 lg:gap-x-8 xl:grid-cols-5 xl:gap-x-10">
+		<div className="mt-6">
+			<div className="grid gap-10 md:grid-cols-3 md:gap-x-5 lg:grid-cols-4 lg:gap-x-8 xl:grid-cols-5 xl:gap-x-4">
 				{heroes.map((hero) => (
 					<HeroCard key={hero.id} {...hero} />
 				))}
