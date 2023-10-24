@@ -127,6 +127,7 @@ body {
   align-self: center;
   margin-left: 2rem;
   border-radius: 10px;
+	object-fit: cover;
   transition: transform 0.5s;
 }
 
